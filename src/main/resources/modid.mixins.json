@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.chris5011.ironfences.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "IronFenceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

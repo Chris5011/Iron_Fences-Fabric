@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ironfences",
+  "version": "${version}",
+
+  "name": "Iron Fences",
+  "description": "This mod implements Iron Fences as well as an Iron-Fencegate into the game.",
+  "authors": [
+    "Chris5011"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GNU General Public License v3.0",
+  "icon": "IronFences.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.chris5011.ironfences.IronFences"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
